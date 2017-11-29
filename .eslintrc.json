@@ -1,6 +1,7 @@
 {
   "env": {
-    "jest": true
+    "jest": true,
+    "browser": true
   },
   "extends": [
     "airbnb",
@@ -14,5 +15,8 @@
     "semi": "error",
     "no-unexpected-multiline": 2,
     "compat/compat": 2
+  },
+  "settings": {
+    "polyfills": ["fetch"]
   }
 }
